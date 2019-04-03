@@ -36,7 +36,7 @@
 #pragma mark - event response
 - (void)didTouchedPushBViewControllerButton {
     
-    UIViewController *vc = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"123"];
+    UIViewController *vc = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"Hello World!"];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
